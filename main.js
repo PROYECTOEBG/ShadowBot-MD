@@ -1,7 +1,7 @@
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"; 
 process.on('uncaughtException', console.error);
 import "./configuracion.js";
-import "./rpg.js";
+//import "./rpg.js";
 import {createRequire} from "module";
 import path, {join} from "path";
 import {fileURLToPath, pathToFileURL} from "url";
